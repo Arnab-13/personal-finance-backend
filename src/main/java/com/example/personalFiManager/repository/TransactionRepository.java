@@ -1,0 +1,7 @@
+package com.example.personalFiManager.repository;
+
+import com.example.personalFiManager.model.Transaction;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TransactionRepository extends JpaRepository<Transaction, Long> {
+}
